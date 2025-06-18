@@ -1,87 +1,103 @@
-🚔 Tamil Nadu Police Assistant
+# 🚔 Tamil Nadu Police Assistant
 
-A bilingual web app built to assist users with police-related queries in English 🇬🇧 and Tamil 🇮🇳.
+A **bilingual web application** designed to assist users with police-related queries in **English 🇬🇧** and **Tamil 🇮🇳**.
 
-✨ Features
+---
 
-🌐 Bilingual support (English & Tamil)
-📍 Nearby emergency services locator
-🏢 Department details & directory
-❓ Commonly asked police queries
-🧒 Kids Mode for child safety awareness
-📞 Emergency contact shortcuts
-🗺️ Location-based services
-🧰 Prerequisites
+## ✨ Features
 
-Make sure you have the following installed:
+- 🌐 Bilingual support (English & Tamil)  
+- 📍 Nearby emergency services locator  
+- 🏢 Department details & directory  
+- ❓ Assistance with common police-related queries  
+- 🧒 Kids Mode for child safety education  
+- 📞 Emergency contact shortcuts  
+- 🗺️ Location-based services and awareness  
 
-🐍 Python 3.8+
-📦 pip (Python package installer)
-🔑 Google Maps API key
+---
 
-🚀 Getting Started
-1️⃣ Clone the Repo
-bash
-git clone https://github.com/yourusername/tamil-nadu-police-assistant.git
+## 🧰 Prerequisites
+
+Ensure you have the following installed:
+
+- 🐍 Python 3.8+  
+- 📦 `pip` – Python package installer  
+- 🔑 Google Maps API Key  
+
+---
+
+## Installation
+
+1️⃣ Clone the repository:
+```bash
+git clone https://github.com/UMAYAL-N/CopBot.git
 cd tamil-nadu-police-assistant
-2️⃣ Create & Activate Virtual Environment
-bash
+```
+
+2️⃣ Create and activate a virtual environment:
+```bash
 python -m venv venv
-source venv/bin/activate     # On Windows: venv\Scripts\activate
-3️⃣ Install Dependencies
-bash
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3️⃣ Install dependencies:
+```bash
 pip install -r requirements.txt
-4️⃣ Add Your Configuration
-Create a .env file in the root directory:
+```
+
+4️⃣ Create a `.env` file in the project root and add your configuration:
+```
 FLASK_SECRET_KEY=your_secret_key_here
 GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
+```
 
-Running the Application
-Start the Flask app:
+## ▶️ Running the Application
 
-bash
+1. Start the Flask application:
+```bash
 python app.py
+```
 
-Then visit your browser:
-arduino
-🌐 http://localhost:5000
+2. Open your web browser and navigate to:
+```
+🌐http://localhost:5000
+```
 
-🗂️ Project Structure
-📁 tamil-nadu-police-assistant/
-├── app.py                 # 🚀 Entry point of the app
-├── local_llm.py           # 🧠 Local language model integration
-├── tamil_chat.py          # 💬 Tamil conversational logic
-├── requirements.txt       # 📦 Required Python libraries
-├── static/                # 🎨 Static assets (CSS, JS, images)
-│   └── data/              # 📊 JSON data files
-└── templates/             # 🖼️ HTML templates
+## Project Structure
 
+```
+📁 CopBot
+├── app.py                 # Main application file
+├── local_llm.py           # Local language model implementation
+├── tamil_chat.py          # Tamil chat functionality
+├── requirements.txt       # Python dependencies
+├── static/                # Static files (CSS, JS, images)
+│   └── data/              # JSON data files
+└── templates/             # HTML templates
+```
 
-🤝 Contributing
-We welcome contributions! Follow these steps:
-Fork the repository
-Create a feature branch
-bash
-git checkout -b feature/AmazingFeature
-💾 Commit your changes
-bash
-git commit -m "Add AmazingFeature"
-🚀 Push to your branch
-bash
-git push origin feature/AmazingFeature
-📬 Open a Pull Request
+## 🤝Contributing
 
-📄 License
-Licensed under the MIT License. See the LICENSE file for full details.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-🙏 Acknowledgments
+## 📄License
 
-👮 Tamil Nadu Police Department
-🧠 AI4Bharat for regional language models
-🗺️ Google Maps Platform
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-📬 Contact
-Have questions or need support?
+## 🙏Acknowledgments
+
+- 👮Tamil Nadu Police Department
+- 🧠AI4Bharat for language models
+- 🗺️Google Maps Platform
+
+## 📬 Contact
+
+For any queries or support, please contact:
+
 Github: https://github.com/UMAYAL-N
 📧 Email: numayalnatarajan@gmail.com
 Base : India 
