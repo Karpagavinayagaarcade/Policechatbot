@@ -1,0 +1,88 @@
+{
+    "english": {
+        "filing_methods": {
+            "online": {
+                "steps": [
+                    "Visit the Tamil Nadu Police website (www.tnpolice.gov.in)",
+                    "Click on 'File FIR Online'",
+                    "Fill in the required details",
+                    "Submit the form",
+                    "Save the FIR number for future reference"
+                ],
+                "requirements": [
+                    "Valid ID proof",
+                    "Contact information",
+                    "Details of the incident",
+                    "Location and time of the incident",
+                    "Any supporting documents or evidence"
+                ]
+            },
+            "offline": {
+                "steps": [
+                    "Visit the nearest police station",
+                    "Request to file an FIR",
+                    "Provide all necessary details",
+                    "Sign the FIR after verification",
+                    "Get a copy of the FIR"
+                ],
+                "requirements": [
+                    "Valid ID proof",
+                    "Contact information",
+                    "Details of the incident",
+                    "Location and time of the incident",
+                    "Any supporting documents or evidence"
+                ]
+            }
+        },
+        "important_notes": [
+            "You have the right to file an FIR",
+            "The police cannot refuse to register an FIR",
+            "You can file an FIR in any police station",
+            "Keep a copy of the FIR for your records",
+            "Follow up on your case using the FIR number"
+        ]
+    },
+    "tamil": {
+        "filing_methods": {
+            "online": {
+                "steps": [
+                    "தமிழ்நாடு காவல்துறை வலைத்தளத்தை பார்வையிடவும் (www.tnpolice.gov.in)",
+                    "'ஆன்லைன் FIR பதிவு' என்பதை கிளிக் செய்யவும்",
+                    "தேவையான விவரங்களை நிரப்பவும்",
+                    "படிவத்தை சமர்ப்பிக்கவும்",
+                    "எதிர்கால குறிப்புக்காக FIR எண்ணை சேமிக்கவும்"
+                ],
+                "requirements": [
+                    "சரியான அடையாள அட்டை",
+                    "தொடர்பு தகவல்கள்",
+                    "சம்பவத்தின் விவரங்கள்",
+                    "சம்பவத்தின் இடம் மற்றும் நேரம்",
+                    "எந்தவொரு ஆதரவு ஆவணங்கள் அல்லது சான்றுகள்"
+                ]
+            },
+            "offline": {
+                "steps": [
+                    "அருகிலுள்ள காவல்நிலையத்திற்கு செல்லவும்",
+                    "FIR பதிவு செய்ய கோரவும்",
+                    "அனைத்து தேவையான விவரங்களையும் வழங்கவும்",
+                    "சரிபார்ப்புக்குப் பிறகு FIR-ஐ கையொப்பமிடவும்",
+                    "FIR-ன் நகலை பெறவும்"
+                ],
+                "requirements": [
+                    "சரியான அடையாள அட்டை",
+                    "தொடர்பு தகவல்கள்",
+                    "சம்பவத்தின் விவரங்கள்",
+                    "சம்பவத்தின் இடம் மற்றும் நேரம்",
+                    "எந்தவொரு ஆதரவு ஆவணங்கள் அல்லது சான்றுகள்"
+                ]
+            }
+        },
+        "important_notes": [
+            "FIR பதிவு செய்ய உங்களுக்கு உரிமை உண்டு",
+            "காவல்துறை FIR பதிவு செய்ய மறுக்க முடியாது",
+            "எந்த காவல்நிலையத்திலும் FIR பதிவு செய்யலாம்",
+            "உங்கள் பதிவுகளுக்காக FIR-ன் நகலை வைத்திருக்கவும்",
+            "FIR எண்ணைப் பயன்படுத்தி உங்கள் வழக்கை தொடர்ந்து பின்தொடரவும்"
+        ]
+    }
+} 

@@ -1,0 +1,167 @@
+{% extends "base.html" %}
+
+{% block title %}
+    {% if lang == 'tamil' %}
+        தமிழ்நாடு காவல்துறை துறைகள்
+    {% else %}
+        Tamil Nadu Police Departments
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+<div class="departments-container">
+    <div class="page-header">
+        <h1>
+            {% if lang == 'tamil' %}
+                தமிழ்நாடு காவல்துறை துறைகள்
+            {% else %}
+                Tamil Nadu Police Departments
+            {% endif %}
+        </h1>
+        <p class="subtitle">
+            {% if lang == 'tamil' %}
+                தமிழ்நாடு காவல்துறையின் முக்கிய துறைகள் மற்றும் அவற்றின் செயல்பாடுகள்
+            {% else %}
+                Key departments and their functions in Tamil Nadu Police
+            {% endif %}
+        </p>
+    </div>
+
+    <div class="departments-grid">
+        {% for category, dept_list in departments[lang].items() %}
+            <div class="department-category">
+                <h2>{{ category }}</h2>
+                <div class="department-list">
+                    {% for dept_name, dept_desc in dept_list.items() %}
+                        <div class="department-card">
+                            <div class="department-content">
+                                <h3>{{ dept_name }}</h3>
+                                <p>{{ dept_desc }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="back-btn-container">
+        <a href="{{ url_for('index') }}" class="back-btn">
+            {% if lang == 'tamil' %}
+                முதல் பக்கத்திற்கு திரும்பு
+            {% else %}
+                Back to Home
+            {% endif %}
+        </a>
+    </div>
+</div>
+
+<style>
+.departments-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.page-header h1 {
+    font-size: 2.5rem;
+    color: #1a237e;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.departments-grid {
+    display: grid;
+    gap: 2rem;
+}
+
+.department-category {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.department-category h2 {
+    color: #1a237e;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e3f2fd;
+}
+
+.department-list {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.department-card {
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.department-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.department-content h3 {
+    color: #1a237e;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.department-content p {
+    color: #333;
+    line-height: 1.6;
+}
+
+.back-btn-container {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.back-btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #1a237e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.2s;
+}
+
+.back-btn:hover {
+    background: #283593;
+}
+
+@media (max-width: 768px) {
+    .departments-container {
+        padding: 1rem;
+    }
+
+    .page-header h1 {
+        font-size: 2rem;
+    }
+
+    .department-category h2 {
+        font-size: 1.5rem;
+    }
+
+    .department-content h3 {
+        font-size: 1.2rem;
+    }
+}
+</style>
+{% endblock %} 

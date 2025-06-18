@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="100" cy="100" r="90" fill="#1a237e"/>
+    
+    <!-- Police Badge Shape -->
+    <path d="M100 20 L180 100 L100 180 L20 100 Z" fill="white"/>
+    
+    <!-- Star -->
+    <path d="M100 40 L120 100 L180 100 L130 140 L150 200 L100 160 L50 200 L70 140 L20 100 L80 100 Z" fill="#1a237e"/>
+    
+    <!-- Text -->
+    <text x="100" y="110" font-family="Arial" font-size="12" fill="white" text-anchor="middle">TNP</text>
+</svg> 

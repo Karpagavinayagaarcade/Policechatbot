@@ -1,0 +1,44 @@
+{
+    "patterns": [
+        {
+            "keywords": ["hello", "hi", "greetings", "good morning", "good afternoon", "good evening"],
+            "response": "Hello! I am the Tamil Nadu Police Assistant. How can I help you?"
+        },
+        {
+            "keywords": ["emergency", "help", "danger", "threat", "attack", "robbery", "theft", "assault", "stolen", "stole", "stealing", "steal"],
+            "response": "For emergency assistance, please call 100 immediately. We will help you."
+        },
+        {
+            "keywords": ["fir", "file fir", "filing fir", "filed fir", "how to file fir", "procedure for fir", "fir procedure", "fir filing", "fir filing process"],
+            "response": "To file an FIR (First Information Report), you can visit the nearest police station or file it online through the Tamil Nadu Police website. You will need to provide details about the incident, including date, time, location, and description of what happened."
+        },
+        {
+            "keywords": ["eve teasing", "harassment", "stalking", "molestation", "sexual harassment", "women safety", "women protection", "women security"],
+            "response": "For cases of eve teasing or harassment, you can file a complaint at the nearest police station or call the Women's Helpline at 1091. The police will take immediate action to ensure your safety."
+        },
+        {
+            "keywords": ["complaint", "crime", "theft", "report", "reporting", "reported", "how to report", "procedure", "process"],
+            "response": "To file a complaint, you can visit the nearest police station or file it online through the Tamil Nadu Police website. For emergency situations, call 100 immediately."
+        },
+        {
+            "keywords": ["police station", "station", "nearest police", "find police", "locate police", "police location"],
+            "response": "To find the nearest police station, you can use the Police Station Locator on the Tamil Nadu Police website or call 100 for assistance."
+        },
+        {
+            "keywords": ["certificate", "police certificate", "character certificate", "verification", "background check"],
+            "response": "To obtain a police certificate, visit your nearest police station with required documents and submit an application. The process usually takes 7-10 working days."
+        },
+        {
+            "keywords": ["traffic", "traffic police", "traffic violation", "traffic fine", "traffic ticket", "traffic rules"],
+            "response": "For traffic-related issues, you can contact the Traffic Police at 103 or visit the nearest traffic police station. You can also pay traffic fines online through the Tamil Nadu Police website."
+        },
+        {
+            "keywords": ["cyber crime", "cybercrime", "online fraud", "internet fraud", "digital crime", "cyber security"],
+            "response": "For cyber crime complaints, you can file a report at the nearest cyber crime police station or through the National Cyber Crime Reporting Portal. Call 1930 for cyber crime helpline."
+        },
+        {
+            "keywords": ["thanks", "thank you", "goodbye", "bye", "thank you very much", "thanks a lot"],
+            "response": "Thank you! Please contact us again if you need any further assistance."
+        }
+    ]
+} 

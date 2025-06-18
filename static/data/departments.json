@@ -1,0 +1,74 @@
+{
+    "tamil": {
+        "துறைகள்": {
+            "குற்றவியல் துறை": "குற்றங்களை விசாரித்தல் மற்றும் வழக்குகளை நடத்துதல்",
+            "போக்குவரத்து துறை": "சாலை பாதுகாப்பு மற்றும் போக்குவரத்து கட்டுப்பாடு",
+            "கணினி குற்றவியல்": "இணைய குற்றங்கள் மற்றும் சைபர் பாதுகாப்பு",
+            "பெண்கள் பாதுகாப்பு": "பெண்கள் மற்றும் குழந்தைகள் பாதுகாப்பு"
+        },
+        "தொடர்பு எண்கள்": {
+            "காவல்துறை ஆணையர்": "044-23452347",
+            "குற்றவியல் பிரிவு": "044-23452348",
+            "பாதுகாப்பு பிரிவு": "044-23452349",
+            "போக்குவரத்து பிரிவு": "044-23452350",
+            "கணினி குற்றங்கள் பிரிவு": "044-23452351",
+            "பொருளாதார குற்றங்கள் பிரிவு": "044-23452352",
+            "பெண்கள் பாதுகாப்பு பிரிவு": "044-23452353",
+            "குழந்தைகள் பாதுகாப்பு பிரிவு": "044-23452354"
+        },
+        "சட்டம் மற்றும் ஒழுங்கு": {
+            "வன்முறை பிரிவு": "கடுமையான குற்றங்கள் மற்றும் குற்றவியல் விசாரணைகளை கையாளுகிறது",
+            "போக்குவரத்து காவல்துறை": "போக்குவரத்து கட்டுப்பாடு மற்றும் சாலை பாதுகாப்பை நிர்வகிக்கிறது",
+            "சிறப்பு பிரிவு": "உளவு மற்றும் பாதுகாப்பு விவகாரங்களை கையாளுகிறது",
+            "சைபர் குற்றம்": "சைபர் தொடர்பான குற்றங்கள் மற்றும் டிஜிட்டல் மோசடிகளை விசாரிக்கிறது"
+        },
+        "சிறப்பு பிரிவுகள்": {
+            "பயங்கரவாத எதிர்ப்பு படை": "பயங்கரவாத செயல்பாடுகளை கையாளும் சிறப்பு பிரிவு",
+            "போதைப்பொருள் கட்டுப்பாடு": "மருந்து தொடர்பான குற்றங்கள் மற்றும் தடுப்பு நடவடிக்கைகள்",
+            "பொருளாதார குற்றங்கள் பிரிவு": "நிதி குற்றங்கள் மற்றும் மோசடிகளை விசாரிக்கிறது",
+            "பெண்கள் பாதுகாப்பு பிரிவு": "பெண்கள் பாதுகாப்பு மற்றும் துன்புறுத்தல் வழக்குகளுக்கான சிறப்பு பிரிவு"
+        },
+        "ஆதரவு சேவைகள்": {
+            "பயிற்சி பிரிவு": "காவல்துறை பயிற்சி மற்றும் மேம்பாட்டை கையாளுகிறது",
+            "விஞ்ஞான விசாரணை பிரிவு": "அறிவியல் விசாரணை மற்றும் சாட்சிய பகுப்பாய்வு",
+            "பொது உறவுகள்": "பொது தகவல் தொடர்பு மற்றும் ஊடக உறவுகளை நிர்வகிக்கிறது",
+            "சட்ட பிரிவு": "சட்ட விவகாரங்கள் மற்றும் நீதிமன்ற வழக்குகளை கையாளுகிறது"
+        }
+    },
+    "english": {
+        "Law and Order": {
+            "Crime Branch": "Handles serious crimes and criminal investigations",
+            "Traffic Police": "Manages traffic control and road safety",
+            "Special Branch": "Handles intelligence and security matters",
+            "Cyber Crime": "Investigates cyber-related crimes and digital fraud"
+        },
+        "Special Units": {
+            "Anti-Terrorism Squad": "Specialized unit for handling terrorist activities",
+            "Narcotics Control": "Handles drug-related crimes and prevention",
+            "Economic Offenses Wing": "Investigates financial crimes and fraud",
+            "Women's Safety Wing": "Specialized unit for women's safety and harassment cases"
+        },
+        "Support Services": {
+            "Training Division": "Handles police training and development",
+            "Forensic Department": "Scientific investigation and evidence analysis",
+            "Public Relations": "Manages public communication and media relations",
+            "Legal Department": "Handles legal matters and court cases"
+        },
+        "Departments": {
+            "Criminal Investigation": "Investigating crimes and handling cases",
+            "Traffic Police": "Road safety and traffic control",
+            "Cyber Crime": "Internet crimes and cyber security",
+            "Women Safety": "Women and children protection"
+        },
+        "Contact Numbers": {
+            "Police Commissioner": "044-23452347",
+            "Crime Branch": "044-23452348",
+            "Security Branch": "044-23452349",
+            "Traffic Branch": "044-23452350",
+            "Cyber Crime Branch": "044-23452351",
+            "Economic Offences Wing": "044-23452352",
+            "Women Protection Wing": "044-23452353",
+            "Child Protection Wing": "044-23452354"
+        }
+    }
+} 

@@ -1,0 +1,28 @@
+{
+    "patterns": [
+        {
+            "keywords": ["fir", "complaint", "file"],
+            "response": "To file an FIR (First Information Report), you have two options:\n\n1. Visit your nearest police station:\n   - Go to the police station\n   - Request to file an FIR\n   - Provide all necessary details\n   - Get a copy of your FIR\n\n2. Online FIR filing:\n   - Visit the Tamil Nadu Police website\n   - Click on 'File Complaint'\n   - Fill in the required information\n   - Submit the form\n\nFor emergencies, call 100 immediately. Would you like to know what details are required for filing an FIR?"
+        },
+        {
+            "keywords": ["fir details", "required", "need", "yes", "what details", "tell me", "explain", "hi", "hello"],
+            "response": "To file an FIR, you need to provide the following details:\n\n1. Your personal information:\n   - Full name\n   - Address\n   - Contact number\n   - ID proof (Aadhar Card, Voter ID, etc.)\n\n2. Incident details:\n   - Date and time of the incident\n   - Location where it occurred\n   - Detailed description of what happened\n   - Names and descriptions of any suspects\n   - Any witnesses present\n\n3. Supporting documents (if available):\n   - Photographs\n   - Videos\n   - Medical reports (if applicable)\n   - Any other relevant evidence\n\nYou can file an FIR at any police station, regardless of where the incident occurred. The police are legally bound to register your FIR."
+        },
+        {
+            "keywords": ["police station", "station", "nearest"],
+            "response": "To find the nearest police station, you can:\n1. Visit our website and use the police station locator\n2. Call 100 for assistance\n3. Use the Tamil Nadu Police mobile app\n4. Visit the police station directory on our website\n\nYou can also get directions and contact information for any police station in Tamil Nadu."
+        },
+        {
+            "keywords": ["certificate", "police certificate"],
+            "response": "For police certificates, you need to:\n1. Visit your local police station\n2. Submit the following documents:\n   - Application form\n   - ID proof (Aadhar Card, Voter ID)\n   - Address proof\n   - Passport size photographs\n   - Purpose of certificate\n   - Any additional documents as required\n\nThe processing time is usually 7-10 working days."
+        },
+        {
+            "keywords": ["help", "assistance", "support"],
+            "response": "I'm here to help! You can ask me about:\n1. Filing an FIR\n2. Finding police stations\n3. Getting police certificates\n4. Emergency contacts\n5. Department information\n6. Common queries\n\nWhat would you like to know?"
+        },
+        {
+            "keywords": ["emergency", "help", "danger", "threat", "attack", "robbery", "theft", "assault"],
+            "response": "EMERGENCY: Please call 100 immediately for police assistance!"
+        }
+    ]
+} 

@@ -1,0 +1,38 @@
+{
+    "tamil": {
+        "பாதுகாப்பு குறிப்புகள்": [
+            "வெளியில் செல்லும்போது பெற்றோரிடம் தெரிவிக்கவும்",
+            "அந்நியர்களிடம் பேச வேண்டாம்",
+            "எந்தவொரு பிரச்சினையும் ஏற்பட்டால் பெற்றோரிடம் தெரிவிக்கவும்",
+            "தனியாக வெளியில் செல்ல வேண்டாம்",
+            "பிறரிடம் உங்கள் பெயர் மற்றும் முகவரியை சொல்ல வேண்டாம்",
+            "பிறரிடம் உங்கள் கடைசி எண்ணை கொடுக்க வேண்டாம்",
+            "பிறரிடம் உங்கள் பள்ளி பெயரை சொல்ல வேண்டாம்",
+            "பிறரிடம் உங்கள் பெற்றோர் பெயரை சொல்ல வேண்டாம்"
+        ],
+        "உதவி தேவைப்படும்போது": [
+            "அவசர உதவி தேவைப்பட்டால் 100 ஐ அழையுங்கள்",
+            "குழந்தைகள் உதவி தேவைப்பட்டால் 1098 ஐ அழையுங்கள்",
+            "பெற்றோரின் தொலைபேசி எண்ணை மனப்பாடம் செய்யவும்",
+            "நம்பிக்கைக்குரிய பெரியவர்களின் தொடர்பு எண்களை சேமித்து வைக்கவும்"
+        ]
+    },
+    "english": {
+        "Safety Tips": [
+            "Always inform parents when going out",
+            "Don't talk to strangers",
+            "Tell parents about any problems",
+            "Don't go out alone",
+            "Don't tell strangers your name and address",
+            "Don't give your phone number to strangers",
+            "Don't tell strangers your school name",
+            "Don't tell strangers your parents' names"
+        ],
+        "When You Need Help": [
+            "Call 100 for emergency help",
+            "Call 1098 for child helpline",
+            "Memorize parents' phone numbers",
+            "Save trusted adults' contact numbers"
+        ]
+    }
+} 
